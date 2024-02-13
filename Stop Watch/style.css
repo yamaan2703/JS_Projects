@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.stopwatch{
+    border: 2px solid white;
+}
+#DisplayMin, #DisplaySec, #DisplayMiliSec{
+    border: 1px solid white;
+    font-size: 100px;
+    width: 40%;
+    margin-left: 140px !important;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+.countdown{
+    border: 2px solid white;
+}
+.countdown input{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.countdown input ::placeholder{
+    color: white;
+}
+.input{
+    text-align: center;
+    margin: 10px ;
+    
+}
+#ShowMin, #ShowSec, #ShowMiliSec{
+    border: 1px solid white;
+    font-size: 100px;
+    width: 40%;
+    margin-left: 140px !important;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px gray;
+}
